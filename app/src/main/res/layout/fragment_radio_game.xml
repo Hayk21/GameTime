@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hayk.gametime.fragments.RadioGameFragment"
+    android:orientation="vertical"
+    android:background="@drawable/background7"
+    android:id="@+id/radio_game_activity_second">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:textSize="40sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/voice"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:textSize="35sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:id="@+id/name_of_song" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:id="@+id/buttons_linear">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:src="@mipmap/x_button"
+            android:id="@+id/no_button"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:src="@mipmap/check_button"
+            android:id="@+id/yes_button"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:id="@+id/numbers_linear">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:textSize="24sp"
+            android:paddingLeft="10dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/place_for_team_name"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="7"
+            android:id="@+id/number_of_lose"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="@android:color/holo_green_dark"
+            android:text="0"
+            android:id="@+id/number_of_right_answers"
+            android:visibility="invisible"/>
+
+
+    </LinearLayout>
+
+    <Chronometer
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="50sp"
+        android:id="@+id/timer" />
+
+
+
+
+</LinearLayout>

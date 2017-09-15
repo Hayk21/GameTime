@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hayk.gametime.fragments.RadioTeamsFragment"
+    android:orientation="vertical"
+    android:background="@drawable/background7">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:textStyle="italic"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:paddingBottom="10dp"
+        android:text="@string/names_of_teams"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/team_number_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="25dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:maxLength="20"
+            android:singleLine="true"
+            android:hint="Թիմ համար 1" />
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_gravity="top"
+        android:hint="Թիմ համար 2"
+        android:maxLength="20"
+        android:gravity="center"
+        android:background="@android:color/white"
+        android:id="@+id/team_number_two"
+        android:singleLine="true"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="25dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:background="@color/colorCardBack"
+            android:text="@string/play_without_teams"
+            android:id="@+id/play_without_teams"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="25dp"
+            android:textStyle="bold"
+            android:background="@color/colorCardBack"
+            android:text="@string/next"
+            android:id="@+id/radio_next"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#795548</color>
+    <color name="colorPrimaryDark">#5D4037</color>
+    <color name="colorAccent">#D32F2F</color>
+    <color name="colorGameItem">#201A73</color>
+    <color name="colorCardBack">#F0F4C3</color>
+    <color name="colorBrownBack">#A1887F</color>
+    <color name="colorOfPen">#414c97</color>
+
+</resources>

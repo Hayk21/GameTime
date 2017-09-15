@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/paper">
+
+    <com.example.hayk.gametime.custom_views.ScorePlace
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/finaly_score"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:gravity="center|bottom"
+            android:paddingBottom="10dp"
+            android:text="@string/score"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:id="@+id/teams_linear">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_red_dark"
+                android:gravity="end|bottom"
+                android:padding="7dp"
+                android:textSize="13sp"
+                android:id="@+id/team_one_name" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_red_dark"
+                android:gravity="start|bottom"
+                android:padding="7dp"
+                android:textSize="13sp"
+                android:id="@+id/team_two_name"/>
+        </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:id="@+id/teams_scores_side"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginBottom="40dp"
+            android:id="@+id/scores_linear">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_red_dark"
+                android:gravity="end|top"
+                android:paddingRight="7dp"
+                android:textSize="20sp"
+                android:id="@+id/team_one_finaly_score"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_red_dark"
+                android:gravity="start|top"
+                android:paddingLeft="7dp"
+                android:textSize="20sp"
+                android:id="@+id/team_two_finaly_score"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

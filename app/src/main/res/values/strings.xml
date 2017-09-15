@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">GameTime</string>
+    <string name="bomb_game">Բոմբ խաղ</string>
+    <string name="pantomima_game">Պանտամիմա</string>
+    <string name="sing_game">Փչացած ռադիո</string>
+    <string name="film_game">Գուշակիր ֆիլմը</string>
+    <string name="chain_game">Թույլ շղթա</string>
+    <string name="number_of_people">Խաղի մասնակիցների քանակը</string>
+    <string name="start">Սկսել</string>
+    <string name="before_bomb">Մինչև խաղը սկսելը ընտրեք պատիժը</string>
+    <string name="play_again">Կրկին խաղալու համար ՍԵՂՄԵՔ ԱՅՍՏԵՂ</string>
+    <string name="choose_work">ՍԵՂՄԵՔ ԱՅՍՏԵՂ ,որպեսզի ընրեք պատիժը պարտվողի համար,ապա սեղմեք բոմբի վրա և խաղը կսկսվի</string>
+    <string name="place_for_question">Այստեղ կհայտնվի առաջադրանքը</string>
+    <string name="text_for_end_bomb">Իսկ հիմա պարտվողը կատարում է նշված առաջադրանքը</string>
+    <string name="names_of_teams">Գրանցեք թիմերի անունները</string>
+    <string name="play_without_teams">Խաղալ առանց թիմերի</string>
+    <string name="next">Հաջորդը</string>
+    <string name="how_much_points">Որքա՞ն միավոր է հարկավոր հավաքել հաղթելու համար</string>
+    <string name="how_long_time">Քանի՞ վայրկյան պետք է լինի մեկ փուլի տևողությունը</string>
+    <string name="are_you_ready">Պատրա՞ստ եք</string>
+    <string name="team_choose_melody">ընտրում են երգի տեսակը</string>
+    <string name="choose_melody"> Ընտրեք երգի տեսակը</string>
+    <string name="chance_end">Ձեր երգ բաց թողնելու հնարավորությունները սպառվեցին։Շարունակելու համար, ՍԵՂՄԵՔ ԱՅՍՏԵՂ</string>
+    <string name="time_end">Ձեր ժամանակը սպառվեց։Շարունակելու համար, ՍԵՂՄԵՔ ԱՅՍՏԵՂ</string>
+    <string name="game_continue">Խաղը հաղթելու համար սահմանված բալերը ավելանում են 10-ով։Շարունակելու համար, ՍԵՂՄԵՔ ԱՅՍՏԵՂ</string>
+    <string name="team_win">ՀԱՂԹԵՑԻՆ ԱՅՍ ՄՐՑԱՎԵՃՈՒՄ</string>
+    <string name="choose_the_voice_without_teams">Ընտրեք ձայնը</string>
+    <string name="play_radio_without_teams">ՍԵՂՄԵՔ ԱՅՍՏԵՂ խաղը սկսելու համար</string>
+    <string name="before_choose_voice">Սկզբում ընտրեք ձայնը</string>
+    <string name="without_team_text_1">Դուք հավաքեցիք</string>
+    <string name="without_team_text_2">միավոր։Շարունակելու համար ՍԵՂՄԵՔ ԱՅՍՏԵՂ</string>
+    <string name="you_realy_want_to_exit">Համուզվա՞ծ եք,որ ուզում եք դուրս գալ այս խաղից</string>
+    <string name="play_again_or_exit">Նորի՞ց սկսել խաղը նույն թիմերով,թե՞ նախընտրում եք դուրս գալ։</string>
+    <string name="armenian">Հայկական</string>
+    <string name="armenian_tag">RadioArmenian</string>
+    <string name="russian">Ռուսական</string>
+    <string name="russian_tag">RadioRussian</string>
+    <string name="foreign">Արտասահմանյան</string>
+    <string name="foreign_tag">RadioForeign</string>
+    <string name="mixed">Խառը</string>
+    <string name="mixed_tag">RadioMixed</string>
+    <string name="score">Հաշիվը</string>
+    <string name="this_voice_is">Այս փուլի ձայնն է</string>
+    <string name="title_activity_radio">RadioActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hayk.gametime.fragments.RadioMelodyFragment"
+    android:orientation="vertical"
+    android:background="@drawable/background7">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:textColor="@android:color/white"
+        android:text="@string/team_choose_melody"
+        android:id="@+id/choose_melody_text"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorCardBack"
+        android:layout_margin="10dp"
+        android:alpha="0.7"
+        android:textSize="30sp"
+        android:text="@string/armenian"
+        android:tag="@string/armenian_tag"
+        android:id="@+id/armenian_music"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorCardBack"
+        android:layout_margin="10dp"
+        android:alpha="0.7"
+        android:textSize="30sp"
+        android:text="@string/russian"
+        android:tag="@string/russian_tag"
+        android:id="@+id/russian_music"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorCardBack"
+        android:layout_margin="10dp"
+        android:alpha="0.7"
+        android:textSize="30sp"
+        android:text="@string/foreign"
+        android:tag="@string/foreign_tag"
+        android:id="@+id/foreign_music"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorCardBack"
+        android:layout_margin="10dp"
+        android:alpha="0.7"
+        android:textSize="30sp"
+        android:text="@string/mixed"
+        android:tag="@string/mixed_tag"
+        android:id="@+id/mixed_music"
+        />
+
+
+</LinearLayout>
